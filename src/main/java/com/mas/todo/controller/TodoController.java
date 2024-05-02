@@ -10,6 +10,7 @@ import org.springframework.web.service.annotation.GetExchange;
 
 import java.util.List;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/v1/todo")
 @AllArgsConstructor
